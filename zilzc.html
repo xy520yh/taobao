@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>首页</title>
+<meta http-equiv="Content-Type" content="textml; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+
+
+
+</head>
+<body class="loading">
+
+<div class="wrapper">
+ 		
+    <div class="head" style="z-index:9999999 !important;">
+    	<a href="personal.html" class="pgv" style="background:none;"><img src="images/fh5.png"></a>
+        <div>会员注册</div>
+        <a class="yup" href=""></a>
+    </div>
+   
+   	<div class="whole" style=" padding-top:10px;">
+   		<div class="zh_data">
+            <div id="menu">
+                
+                <div id="menu_con">
+                    <div class="tag" style="display:block">
+                        <div class="pe_data">
+                            <ul>
+                                <li>
+                                    <label>报单中心：</label>
+                                    <input type="text" value="130000000000"  readonly  unselectable="on" style="color:#000;">
+                                </li>
+                                <li>
+                                    <label>推荐人账号：</label>
+                                    <input type="text" value="0" style="width:39%;">
+                                    <input type="button" value="验证" style="width:20%;border:none; margin-left:5px; color:#333;text-indent:0; background:#333; color:#fff;">
+                                </li>
+                                <li>
+                                    <label>设置账号：</label>
+                                    <input type="text" value="213213">
+                                </li>
+                                <li>
+                                    <label>手机号码：</label>
+                                    <input type="text" value="">
+                                </li>
+                                <li>
+                                    <label>真是姓名：</label>
+                                    <input type="text" value="000" >
+                                </li>
+                                <li>
+                                    <label>身份证号：</label>
+                                    <input type="text" value="33333333">
+                                </li>
+                                <li>
+                                    <label>登录密码：</label>
+                                    <input type="text" value="558-477HT">
+                                </li>
+                                <li>
+                                    <label>确认密码：</label>
+                                    <input type="text" value="南宁支行">
+                                </li>
+                                <li>
+                                    <label>短信验证：</label>
+                                    <input type="text" value="0" style="width:30%;">
+                                    <input type="button" value="发送验证码" style="width:28%;border:none; margin-left:5px; text-indent:0; background:#333; color:#fff;">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="objo">
+                            <input type="button" value="修改资料" style="background:#f07757;">
+                        </div>
+                    </div> 
+       			</div>
+			<script type="text/javascript">
+				function selectLi(obj){
+				  var idx = $(obj).index();
+				  $(".tag").each(function(k,v){
+					if(k===idx){
+					  $(this).removeAttr("style");
+					  $(this).attr("style","display:block");
+					  
+					  $(this).siblings().removeAttr("style");
+					  $(this).siblings().attr("style","display:none");
+					}
+				  });
+				}
+            </script>
+			</div> 
+        </div>    
+   </div> 
+         
+          
+    <div style="height:70px;"></div>
+    <div class="bottom_nav">
+       	<ul>
+            <li onClick="location.href='home.html';">
+             	<img src="images/nav10.png">
+                <p>首页</p>
+            </li>
+            <li onClick="location.href='listing.html';">
+              	<img src="images/fenl.png">
+                <p>附近</p>
+            </li>
+            <li onClick="location.href='shoppingCart.html';">
+              	<img src="images/gouwu.png">
+                <p>购物车</p>
+            </li>
+            <li onClick="location.href='personal.html';">
+               	<img src="images/nav13.png">
+                <p style="color:#ff7a01">我的</p>
+            </li>
+       </ul>
+    </div>
+        
+   </div>
+  
+</div>
+
+</body>
+</html>
